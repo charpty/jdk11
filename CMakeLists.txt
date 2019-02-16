@@ -5304,3 +5304,7 @@ add_executable(jdk11
         src/utils/hsdis/hsdis.h
         src/utils/reorder/tools/mcount.c
         src/utils/reorder/tools/remove_mcount.c)
+
+
+add_compile_definitions(CC_INTERP)
+add_compile_definitions(VERSION_STRING="11.0.2-internal")
